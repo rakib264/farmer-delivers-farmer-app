@@ -6,8 +6,8 @@ const screenWidth = Dimensions.get('window').width;
 
 const HomeStatusBar = () => {
   return (
-    <View style={styles.firstWrapeer}>
-      <View style={styles.contentWrapperOne}>
+        <View style={styles.firstWrapeer}>
+      <View style={{}}>
         <Text style={styles.titleStyleOne}>Hello, <Text style={styles.titleStyleTwo}>Rahim</Text></Text>
         <Text style={styles.subTitleStyle}>10 july, 2022</Text>
      </View>
@@ -19,7 +19,7 @@ const HomeStatusBar = () => {
         <Image source={require('../../images/fablogoicon.jpeg')} style={styles.profileImage} />
         </TouchableOpacity>
      </View>
-      </View>
+    </View>
   )
 }
 
@@ -30,12 +30,9 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
-    },
-    contentWrapperOne: {
-        paddingHorizontal: 10,
+        paddingHorizontal: 15
     },
     contentWrapperTwo: {
-        paddingHorizontal: 10,
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',

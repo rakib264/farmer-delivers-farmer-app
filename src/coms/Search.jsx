@@ -39,12 +39,12 @@ export const Search = ( {navigation} ) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        paddingVertical: 10,
-        paddingHorizontal: 5,
+        paddingVertical: 5,
+        paddingHorizontal: 15,
         position: 'relative'
     },
     wrapper: {
-        width: screenWidth,
+        width: screenWidth - 30,
         height: 50,
         flexDirection: 'row',
         alignItems: 'center',
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     textInput: {
         paddingHorizontal: 10,
         paddingVertical: 10,
-        width: '82%',
+        width: '83%',
         height: '100%',
         borderRadius: 10,
         borderWidth: 2,

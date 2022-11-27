@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import LandingScreen from "../screens/LandingScreen.jsx";
 import BottomTabNavigator from '../screens/BottomTabScreen.jsx';
 import SignInScreen from "../screens/AccountScreen.jsx";
+import TemperatureScreen from "../screens/TemperatureScreen.jsx";
 
 
 const Stack = createNativeStackNavigator();
@@ -15,6 +16,7 @@ const AppNavigation = () => {
                         <Stack.Screen name='LandingStack' component={LandingScreen}  />
                         <Stack.Screen name='HomeStack' component={BottomTabNavigator}  />
                         <Stack.Screen name='LoginStack' component={SignInScreen}  />
+                        <Stack.Screen name='TempStack' component={TemperatureScreen}  />
                     </Stack.Navigator>
                 </NavigationContainer>  
     )

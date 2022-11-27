@@ -18,9 +18,9 @@ const LandingScreen = ({ navigation }) => {
      </View>
      <View  style={{ flex: 1,}}>
         <View style={{ flexDirection: 'column', alignItems: 'center', justifyContent: 'center', paddingVertical: 70,}}>
-        <View style={{ paddingVertical: 30, }}>
-        <Text style={{ fontSize: 26, color: 'white', fontWeight: 'bold', textAlign: 'center'}}>Manage Your Farm</Text>
-        <Text style={{ paddingVertical: 15, fontSize: 18, color: '#E5EEEB', textAlign: 'center'}}>Get updated width the system indicators and sensory data. Our data driven platform make your farm more convenient to maintain. Stay connected with us</Text>
+        <View style={{ paddingVertical: height * .1, }}>
+        <Text style={{ fontSize: 24, color: 'white', fontWeight: 'bold', textAlign: 'center'}}>Manage Your Farm</Text>
+        <Text style={{ paddingVertical: 15, fontSize: 14, color: '#E5EEEB', textAlign: 'center'}}>Get updated width the system indicators and sensory data. Our data driven platform make your farm more convenient to maintain. Stay connected with us</Text>
         </View>
         <TouchableOpacity style={styles.btn} onPress={onTap}>
             <Text style={styles.btnText}>Get Started</Text>
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
         borderRadius: 100,
         position: 'absolute',
         left: width/2 - 25,
-        top: width + 30,
+        top: height * .58,
         borderWidth: 5,
         borderColor: '#E5EEEB',
     },
